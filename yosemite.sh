@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 #
 # Sanitizer for OS X 10.10 (Yosemite)
 
@@ -7,3 +7,4 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
 # disable gamed
 defaults write com.apple.gamed Disabled -bool true
+
