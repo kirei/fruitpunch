@@ -14,7 +14,7 @@ unload() {
 # do not save new documents to iCloud by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
-# disable gamed
+# disable Game Center daemon
 defaults write com.apple.gamed Disabled -bool true
 
 # no automatic captive portal detection
