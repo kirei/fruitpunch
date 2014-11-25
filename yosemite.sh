@@ -17,7 +17,7 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 # disable Game Center daemon
 defaults write com.apple.gamed Disabled -bool true
 
-# no automatic captive portal detection
+# disable automatic captive portal detection
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
 
 # NetBIOS
