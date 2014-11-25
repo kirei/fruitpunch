@@ -8,3 +8,5 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 # disable gamed
 defaults write com.apple.gamed Disabled -bool true
 
+# no automatic captive portal detection
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
